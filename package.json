@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tornqvist/navet.git"
+    "url": "git+https://github.com/tornqvist/navetmusic.com.git"
   },
   "author": "Carl Törnqvist <calle.tornqvist@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tornqvist/navet/issues"
+    "url": "https://github.com/tornqvist/navetmusic.com/issues"
   },
-  "homepage": "https://github.com/tornqvist/navet#readme",
+  "homepage": "https://github.com/tornqvist/navetmusic.com#readme",
   "devDependencies": {
     "cssnext": "^1.8.4",
     "ftpsync": "^0.1.7",
