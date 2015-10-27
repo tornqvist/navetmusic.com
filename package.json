@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Navet promo site",
   "scripts": {
-    "test": "eslint .",
     "dev": "nodemon -e css,js,json -i public -x 'npm run build && npm start'",
     "start": "serve public",
     "build": "cssnext lib/index.css public/index.css",
