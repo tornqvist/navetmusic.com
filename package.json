@@ -1,0 +1,33 @@
+{
+  "name": "navet",
+  "version": "1.0.0",
+  "description": "Navet promo site",
+  "scripts": {
+    "test": "eslint .",
+    "dev": "nodemon -e css,js,json -i public -x 'npm run build && npm start'",
+    "start": "serve public",
+    "build": "cssnext lib/index.css public/index.css",
+    "deploy": "npm run build && ftpsync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tornqvist/navet.git"
+  },
+  "author": "Carl Törnqvist <calle.tornqvist@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tornqvist/navet/issues"
+  },
+  "homepage": "https://github.com/tornqvist/navet#readme",
+  "devDependencies": {
+    "ftpsync": "^0.1.7",
+    "nodemon": "^1.8.0",
+    "serve": "^1.4.0"
+  },
+  "dependencies": {
+    "cssnext": "^1.8.4",
+    "suitcss-base": "^1.0.0",
+    "suitcss-components-button": "^4.0.0",
+    "suitcss-utils-display": "^0.4.2"
+  }
+}

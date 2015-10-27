@@ -1,0 +1,14 @@
+.Banner {
+  margin-bottom: 3rem;
+}
+
+.Banner-logo {
+  width: 400px;
+  max-width: 100%;
+}
+
+@media (max-width: 940px) {
+  .Banner-logo {
+    width: 80%;
+  }
+}

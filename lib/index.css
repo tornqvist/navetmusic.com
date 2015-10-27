@@ -1,0 +1,18 @@
+@import "suitcss-base";
+@import "suitcss-utils-display";
+@import "suitcss-components-button";
+
+@import "./components/app";
+@import "./components/banner";
+@import "./components/footer";
+@import "./components/player";
+
+html {
+  height: 100%;
+}
+
+@media (max-width: 940px) {
+  html {
+    font-size: 0.9rem;
+  }
+}

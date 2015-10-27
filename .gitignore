@@ -1,0 +1,9 @@
+# Libraries
+node_modules
+
+# Config
+config.json
+
+# Built files
+public/index.css
+public/index.js

@@ -1,0 +1,8 @@
+{
+  "local": "./public",
+  "remote": "/",
+  "host": "HOST",
+  "port": 21,
+  "user": "USER",
+  "pass": "PASSWORD"
+}

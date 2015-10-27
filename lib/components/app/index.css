@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+.App {
+  display: flex;
+  min-height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #2f3036;
+}
+
+.App-container {
+  width: 100%;
+  min-height: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+@media (max-width: 940px) {
+  .App-container {
+    padding: 1.5rem;
+  }
+}
+
+.App-background {
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+.App-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.App-section--bottomAlign {
+  align-items: flex-end;
+}
+
+.App-section--grow {
+  flex-grow: 1;
+}
