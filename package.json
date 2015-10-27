@@ -20,14 +20,11 @@
   },
   "homepage": "https://github.com/tornqvist/navet#readme",
   "devDependencies": {
+    "cssnext": "^1.8.4",
     "ftpsync": "^0.1.7",
     "nodemon": "^1.8.0",
-    "serve": "^1.4.0"
-  },
-  "dependencies": {
-    "cssnext": "^1.8.4",
+    "serve": "^1.4.0",
     "suitcss-base": "^1.0.0",
-    "suitcss-components-button": "^4.0.0",
     "suitcss-utils-display": "^0.4.2"
   }
 }
